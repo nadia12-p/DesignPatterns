@@ -2,6 +2,11 @@ package designpatterns;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        drawUIControl(new CheckBox());
     }
+
+    public static void drawUIControl(UIControl control) {
+        control.draw();
+    }
+
 }
